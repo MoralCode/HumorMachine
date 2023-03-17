@@ -9,15 +9,21 @@ generateBtn.addEventListener('click', () => {
 	fetch('wordlist.txt')
 		.then(response => response.text())
 		.then(wordlistStr => {
-			// split the wordlist string into an array of words
-			const wordlist = wordlistStr.trim().split('\n');
+			// split the wordlist string into an array of wordlists
+			const wordlists = wordlistStr.trim().split('\n\n');
+
+
 
 			// generate the random words
 			const words = [];
 			for (let i = 0; i < numWords; i++) {
-				const randomIndex = Math.floor(Math.random() * wordlist.length);
-				const word = wordlist[randomIndex];
-				words.push(word);
+				const word = []
+				for (let j = 0; j < wordlists.length; j++) {
+
+					const randomIndex = Math.floor(Math.random() * j);
+					word.push (wordlists[j][randomIndex]);
+				}
+				words.push(word.join(" "));
 			}
 
 			// update the word container element with the generated words
