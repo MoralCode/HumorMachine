@@ -16,8 +16,8 @@ evelyn
 martin
 
 meatballs
-lesagne
-saurkraut
+lasagne
+sauerkraut
 dishwasher
 `;
 	// split the wordlist string into an array of wordlists
