@@ -31,14 +31,14 @@ dishwasher
 	for (let i = 0; i < numWords; i++) {
 		const word = []
 		for (let j = 0; j < wordlists.length; j++) {
-
-			const randomIndex = Math.floor(Math.random() * j);
-			word.push (wordlists[j][randomIndex]);
+			let wordlist = wordlists[j]
+			const randomIndex = Math.floor(Math.random() * wordlist.length);
+			word.push (wordlist[randomIndex]);
 		}
 		words.push(word.join(" "));
 	}
 
 	// update the word container element with the generated words
-	wordContainer.innerHTML = words.join(' ');
+	wordContainer.innerHTML = words.join(' <br>');
 
 });
