@@ -205,6 +205,7 @@ var dwaynePuns = [
 
 
 djPunGenerateBtn.addEventListener('click', () => {
+	djPunWordContainer.innerHTML = "";
 	// get the number of puns to generate from the input field
 	const numPuns = parseInt(document.getElementById('num-dj-puns').value);
 
@@ -218,6 +219,7 @@ djPunGenerateBtn.addEventListener('click', () => {
 });
 
 allDjPunsBtn.addEventListener('click', () => {
+	djPunWordContainer.innerHTML = "";
 	for (const pun of dwaynePuns) {	
 		addPunToContainer(pun, djPunWordContainer);
 	}
