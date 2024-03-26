@@ -101,7 +101,7 @@ Cheesecake
 
 const djPunGenerateBtn = document.getElementById('generate-dj-puns-btn');
 const djPunWordContainer = document.getElementById('dj-pun-container');
-
+const allDjPunsBtn = document.getElementById("generate-all-dj-puns-btn");
 
 
 function addPunToContainer(pun, container) {
@@ -216,3 +216,10 @@ djPunGenerateBtn.addEventListener('click', () => {
 	}
 
 });
+
+allDjPunsBtn.addEventListener('click', () => {
+	for (const pun of dwaynePuns) {	
+		addPunToContainer(pun, djPunWordContainer);
+	}
+});
+
