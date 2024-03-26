@@ -205,11 +205,9 @@ var dwaynePuns = [
 
 
 djPunGenerateBtn.addEventListener('click', () => {
-	// get the number of words to generate from the input field
+	// get the number of puns to generate from the input field
 	const numPuns = parseInt(document.getElementById('num-dj-puns').value);
 
-	// generate the random words
-	const words = [];
 	for (let i = 0; i < numPuns; i++) {
 		const randomIndex = Math.floor(Math.random() * dwaynePuns.length);
 		const pun = dwaynePuns[randomIndex]
