@@ -176,7 +176,7 @@ var dwaynePuns = [
 	},
 	{
 		setup: "What do you call Dwayne Johnson when he is holding onto a boat?",
-		punchline: "Dwayne the dock Johnson"
+		punchline: "Dwayne \"the Dock\" Johnson"
 	},
 	{
 		setup: "What do you call Dwayne Johnson when he‘s staring at something in amazement?",
@@ -196,7 +196,12 @@ var dwaynePuns = [
 	},
 	{
 		setup: "What do you call Dwayne Johnson if he was a supermarket?",
-		punchline: "Dwayne the stock Johnson"
+		punchline: "Dwayne \"the Stock\" Johnson"
+	},
+	{
+		setup: "What do you call Dwayne Johnson the investor?",
+		punchline: "Dwayne \"the Stock\" Johnson",
+		source: "https://www.reddit.com/r/MemeEconomy/comments/6guj6t/dwayne_the_rock_johnson_memes_on_the_rise/"
 	},
 	{
 		setup: "What do you call Dwayne Johnson when he is keeping food in a bag/storing leftovers?",
@@ -226,6 +231,52 @@ var dwaynePuns = [
 		setup: "What do you call Dwayne Johnson when he's a social media star?",
 		punchline: "Dwayne \"the Tik Tok\" Johnson"
 	},
+	{
+		setup: "What do you call Dwayne Johnson when he plays Minecraft?",
+		punchline: "Dwayne \"the Bedrock\" Johnson"
+	},
+	{
+		setup: "What do you call Dwayne Johnson when he plays Minecraft?",
+		punchline: "Dwayne \"the Block\" Johnson"
+	},
+	{
+		setup: "What do you call Dwayne Johnson when he wears closed-toed sandals?",
+		punchline: "Dwayne \"the Croc\" Johnson"
+	},
+	{
+		setup: "What do you call Dwayne Johnson the marine animal?",
+		punchline: "The Rock-topus"
+	},
+	{
+		setup: "What do you call Dwayne Johnson after spending many extra years in school?",
+		punchline: "Dwayne \"the Postdoc\" Johnson"
+	},
+	{
+		setup: "What do you call Dwayne Johnson after quitting wrestling to pursue more classical interests?",
+		punchline: "Dwayne \"the Bach\" Johnson"
+	},
+	{
+		setup: "What do you call Dwayne Johnson when he is helping make a large stir fry?",
+		punchline: "Dwayne \"the Wok\" Johnson",
+		source: "https://www.reddit.com/r/me_irl/comments/6gn3ph/me_irl/"
+	},
+	{
+		setup: "What do you call Dwayne Johnson humorously pretenting to be something he is not?",
+		punchline: "Dwayne \"the Mock\" Johnson",
+		source: "https://knowyourmeme.com/photos/1362206-dwayne-the-rock-johnson-rhymes"
+
+	},
+	{
+		setup: "What do you call Dwayne Johnson keeping his kid safe from unnecessary dirt?",
+		punchline: "Dwayne \"the Smock\" Johnson",
+		source: "https://knowyourmeme.com/photos/1275520-dwayne-the-rock-johnson-rhymes"
+	},
+	{
+		setup: "What do you call Dwayne Johnson when he takes 6-8 hours to cook his food?",
+		punchline: "Dwayne \"the Crock [Pot]\" Johnson",
+		source: "https://knowyourmeme.com/photos/1265292-dwayne-the-rock-johnson-rhymes"
+	},
+
 ];
 
 
